@@ -2,4 +2,17 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/12
+GET http://localhost:3000/subscribers/5eb9f55d2eae43831c3e1a20
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing",
+    "subscribedToChannel": "Jiang"
+}
+
+### 
+DELETE http://localhost:3000/subscribers/5eb9f55d2eae43831c3e1a20
